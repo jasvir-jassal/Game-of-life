@@ -1,0 +1,79 @@
+.grid-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.startButton {
+    margin-top: 5px;
+    background-color: rgb(50, 173, 76);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    position: absolute;
+    top:0;
+    right: 30px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.stopButton {
+    margin-top: 5px;
+    background-color: rgb(237, 100, 100);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    position: absolute;
+    top:0;
+    right: 30px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.clearButton {
+    background-color: rgb(211, 127, 32);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    position: absolute;
+    top:70px;
+    right: 30px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.countText {
+    color: white;
+    position: absolute;
+    top:130px;
+    right: 30px;
+    padding: 10px;
+}
+
+.cellEnabled {
+    display: grid;
+    background-color: rgb(240, 167, 11);
+    border: 1px solid;
+    border-color: #282c34;
+    width: 30px;
+    height: 30px;
+}
+
+.cellDisabled {
+    display: grid;
+    background-color: rgb(44, 42, 42);
+    border: 1px solid;
+    border-color: #5377b985;
+    width: 30px;
+    height: 30px;
+}
+
+.cellEnabled:hover{
+    cursor: pointer;
+}
+
+.cellDisabled:hover{
+    background-color: rgb(245, 204, 94);
+    transition: 0.1s ease-in-out;
+    cursor: pointer;
+}
